@@ -41,17 +41,17 @@ Although it's best to use the exact ROM required as listed…_sometimes_ a patch
 
 ## **High Resolution Textures \(N64\)**
 
-The option is enabled by default since if it doesn't find textures for the current ROM nothing happens. To use hi-res texture packs you need to copy them to the directory `com.provenance.n64/hires_texture/{ROM NAME}` The ROM NAME isn't the file name, but instead the identifier for the ROM in the header of the ROM file. If you don't know what it is, you can view the console output at load where it says something like, `Mupen (3): Name: SUPER MARIO 64` So in this example, if I wanted to load hi res textures for Mario 64 I would put them in, `com.provenance.n64/hires_texture/SUPER MARIO 64`‌
+NOTE: This only seems to be working with a specific 1.5 beta build of Provenance that can be downloaded here: [https://drive.google.com/open?id=1pFgr0h7mgFqRAnAO_MUW4aCwQzXdUAUR] 
 
-Hi-Res packs come in folders with sub-folders. Just copy all the folders in the path as described above, mupen will find the right textures in sub folders.‌
+The option is enabled by default since if it doesn't find textures for the current ROM nothing happens. To use hi-res texture packs you need to copy them to the directory `com.provenance.n64` The ROM NAME isn't the file name, but instead the identifier for the ROM in the header of the ROM file. If you don't know what it is, you can view the console output at load where it says something like, `Mupen (3): Name: SUPER MARIO 64`.
 
-Texture packs can be downloaded at [http://textures.emulation64.com/index.php?id=downloads](https://app.gitbook.com/@provenance-emu/s/wiki/~/edit/drafts/-Le3FDXuv92E0WS9Zcsa/info/url)​‌
+Compatible Hi-Res packs come in a single file in .htc format. Just copy them in the path as described above, mupen will find the right textures in that folder.‌
 
-For some reason this site splits larger texture packs into multiple zips. Just download all the zips and copy all their contents into the directory for your ROM as described above.‌
+Texture packs in .htc format can be downloaded at [https://mega.nz/#F!PIpzQAxC!f2ZxRMIR6H9YjeJZn5P3Pw](https://app.gitbook.com/@provenance-emu/s/wiki/~/edit/drafts/-Le3FDXuv92E0WS9Zcsa/info/url)​‌
 
-Hi-Res texture pack don't seem to noticeably degrade performance \(on original ATV4 testing\). For me Mario 64 runs at 100% with dips here and there, and with the hi-res texture pack from [http://eazyhax.com/pitime/SUPER%20MARIO%2064.zip](https://app.gitbook.com/@provenance-emu/s/wiki/~/edit/drafts/-Le3FDXuv92E0WS9Zcsa/info/url) and frame rates were the same as far as I could tell but visually everything was crisper. It seems that texture handling is not the bottle neck of performance for glupen64plus on iOS.‌
+Hi-Res texture pack don't seem to noticeably degrade performance \(on original ATV4 testing\). For me Mario 64 runs at 100% with dips here and there, and with the hi-res texture pack from the link above and frame rates were the same as far as I could tell but visually everything was crisper. It seems that texture handling is not the bottle neck of performance for glupen64plus on iOS.‌
 
-![Texture structure and WebDav in Finder](https://i.imgur.com/esrYOyl.jpg)
+![Texture structure and in Finder](https://imgur.com/7HdMNlt)
 
 ​
 
